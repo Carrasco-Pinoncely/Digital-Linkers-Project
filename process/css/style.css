@@ -4,7 +4,6 @@
 @import "mixins";
 @import "base";
 
-@import "modules/header";
 @import "modules/navigation";
 @import "modules/hero";
 @import "modules/solutioncards";
