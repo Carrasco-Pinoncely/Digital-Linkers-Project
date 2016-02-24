@@ -1,0 +1,21 @@
+#footer {
+  background-color: #333;
+  color: white;
+  font-family: $title-font;
+  font-weight: 100;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  a {
+    color:black;
+    padding: 5px 8px;
+    border-radius: 50px;
+    margin-right: 5px;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: $black-shadow;
+    &:hover {
+      text-shadow: $white-glow;
+      box-shadow: $white-glow;
+    }
+  }
+}

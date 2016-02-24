@@ -1,0 +1,10 @@
+@define-mixin backgroundImageGradient
+  $image,
+  $grstart: transparent,
+  $grend: rgba(0,0,0,.5),
+  $bgPos: center center {
+  background: linear-gradient( to bottom, $grstart, $grend), url($image);
+  background-repeat: no-repeat;
+  background-position: $bgPos;
+  background-size: cover;
+}

@@ -1,0 +1,58 @@
+
+
+#node-js {
+  background: radial-gradient(#bfc388,#7c8a6f);
+  padding: 60px 0;
+  h1 {
+    color: white;
+    text-align: center;
+    text-shadow: $black-shadow;
+  }
+  a {
+    background-color: $round-button-color;
+    border-radius: 3em;
+    padding: 12px;
+    text-align: center;
+    margin-right: 10px;
+    transition: box-shadow 0.5s;
+    &:hover {
+      box-shadow: $white-glow;
+    }
+  }
+  i {
+    color: white;
+    margin: 6px 2px;
+  }
+  .contenu {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+    @media $small {
+      flex-flow: row;
+    }
+    aside {
+      flex: 2;
+      padding-left: 20px;
+      padding-top: 2em;
+      margin-top: 2em;
+      border-left: none;
+      border-top: white 1px dotted;
+      @media $small {
+        border-left: white 1px dotted;
+        border-top:none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    }
+    img {
+      flex: 1;
+    }
+    p {
+      color: white;
+      text-shadow: $black-shadow;
+      line-height: 180%;
+      margin-bottom: 1em;
+    }
+  }
+}

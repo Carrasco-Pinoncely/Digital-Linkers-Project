@@ -1,0 +1,65 @@
+.solution-cards {
+  display: flex;
+  flex-wrap: wrap;
+  h2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+  }
+  .card {
+    display:flex;
+    flex-flow: column;
+    flex: 1 0 18em;
+    justify-content:center;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5em;
+    p {
+      font-size: 1.2em;
+    }
+    .circ-div {
+      height: 7em;
+      display: flex;
+      justify-content: center;
+      color: #f0f0f0;
+      background: url(../images/svg/circle-divider.svg) repeat-x;
+      background-position: bottom center;
+      background-size: cover;
+
+      i {
+        font-size: 5em;
+        color: rgba(255,255,255,0.7);
+        align-self: center;
+      }
+    }
+    .challenge {
+      color: white;
+      padding: 0 20px;
+      align-self: flex-start;
+      h3 {
+        letter-spacing: 3px;
+        line-height: 180%;
+        margin-bottom: 1.4em;
+        margin-top: 1.5em;
+      }
+      p {
+        font-style: italic;
+        letter-spacing: 1px;
+        margin-bottom: 2em;
+      }
+    }
+    .solution {
+      flex: auto;
+      color: black;
+      background: linear-gradient( to bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.5));
+      padding: 20px;
+      font-style: normal;
+      text-shadow: 0px 0px 3px rgba(255, 255, 0, 0.5);
+      p {
+        line-height: 180%;
+        font-size: 1em;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+$catalyseur-background-color : #333;
+
+#catalyseur {
+  padding-bottom: 60px;
+  background-color: $catalyseur-background-color;
+  h1 {
+    color: white;
+    text-align: center;
+    text-shadow: $black-shadow;
+  }
+  h2 {
+    font-weight: 400;
+  }
+  header {
+    @mixin backgroundImageGradient '../images/comanymeeting.jpg', transparent, $catalyseur-background-color, center, top;
+    padding-top: 60px;
+  }
+  .header-content {
+    color: white;
+    text-shadow: $black-shadow;
+    padding: 30px;
+    p {
+      line-height: 180%;
+      margin-bottom: 1em;
+    }
+  }
+}
