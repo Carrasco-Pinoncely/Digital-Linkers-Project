@@ -1,0 +1,31 @@
+{
+  "name": "digital_linkers_website",
+  "version": "1.0.0",
+  "description": "Refonte du site web pour Digital Linkers",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "cssnano": "^3.5.2",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-postcss": "^6.1.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "jquery": "^2.2.0",
+    "precss": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Carrasco-Pinoncely/Digital_Linkers.git"
+  },
+  "author": "Daniel Carrasco Pinoncély",
+  "license": "ISC"
+}
